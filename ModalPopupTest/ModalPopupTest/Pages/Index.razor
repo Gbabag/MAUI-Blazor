@@ -1,0 +1,28 @@
+﻿@page "/"
+@layout Modalpopuplayout
+<button @onclick="()=>{ispopup=true;}" class="btn btn-light" type="button" data-bs-dismiss="modal">Show Modal</button>
+
+@if(ispopup){
+    <div class="modal fade show" role="dialog" tabindex="-1" id="modal-1" style="display: block;    background-color: #0000005c;">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Modal Title</h4>
+                    <button type="button" @onclick="()=>{ispopup=false;}" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>The content of your modal.</p>
+                </div>
+                <div class="modal-footer"><button class="btn btn-light" @onclick="()=>{ispopup=false;}" type="button" data-bs-dismiss="modal">Close</button>
+                    <button class="btn btn-primary" type="button">Save</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+}
+
+
+    @code{
+        bool ispopup=false;
+    }

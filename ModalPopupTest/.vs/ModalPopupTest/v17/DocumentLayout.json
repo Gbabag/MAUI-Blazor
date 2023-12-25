@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ModalPopupTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE3993D-7B13-4A32-99E2-C1D681BAE70E}|ModalPopupTest\\ModalPopupTest.csproj|e:\\modalpopuptest\\modalpopuptest\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CE3993D-7B13-4A32-99E2-C1D681BAE70E}|ModalPopupTest\\ModalPopupTest.csproj|solutionrelative:modalpopuptest\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "E:\\ModalPopupTest\\ModalPopupTest\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "ModalPopupTest\\Pages\\Index.razor",
+              "ToolTip": "E:\\ModalPopupTest\\ModalPopupTest\\Pages\\Index.razor",
+              "RelativeToolTip": "ModalPopupTest\\Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAACAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-25T14:21:21.315Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
